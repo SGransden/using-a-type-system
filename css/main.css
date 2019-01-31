@@ -5,29 +5,31 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  html {
-    box-sizing: border-box;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 
-    font-family: Georgia, serif;
-  }
+  font-family: Georgia, serif;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  .img-flex {
-    display: block;
-    width: 100%;
-  }
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
-  .card {
-    overflow: hidden;
+.card {
+  overflow: hidden;
 
-    background-color: #d9ccaa;
-    border-radius: 6px;
-  }
+  background-color: #d9ccaa;
+  border-radius: 6px;
+}
+
+a {
+  color: currentColor;
 }
